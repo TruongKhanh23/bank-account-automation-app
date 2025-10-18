@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/TruongKhanh23/bank-account-automation-app/issues"
   },
-  "homepage": "https://github.com/TruongKhanh23/bank-account-automation-app#readme"
+  "homepage": "https://github.com/TruongKhanh23/bank-account-automation-app#readme",
+  "dependencies": {
+    "chromedriver": "^141.0.3",
+    "electron": "^38.3.0",
+    "selenium-webdriver": "^4.37.0"
+  }
 }
