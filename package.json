@@ -2,9 +2,12 @@
   "name": "bank-account-automation-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main/main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "start": "electron .",
+    "selenium": "node src/selenium/chrome.js"
   },
   "repository": {
     "type": "git",
